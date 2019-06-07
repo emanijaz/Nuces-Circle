@@ -1,0 +1,6 @@
+Installation instructions
+-----------------------
+
+1. Setup a MySql database. Sample database is given in data folder
+2. Copy and paste the mylibraryphp directory in your webserver root directory
+3. Edit connection information in model/DataAccessHelper.php class
