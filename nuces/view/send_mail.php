@@ -38,7 +38,7 @@ $email->addContent("text/plain", $message);
 //     "text/html", "<strong>and easy to do anywhere, even with PHP</strong>"
 // );
 
-$sendgrid = new \SendGrid('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');
+$sendgrid = new \SendGrid('your key here');
 try {
     $response = $sendgrid->send($email);
     if($response->statusCode()== 202){
