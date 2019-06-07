@@ -1,0 +1,145 @@
+body{
+		overflow-x: hidden;
+	}
+	.headline{
+		width: 200px;
+		height: auto;
+		overflow: hidden;
+	}
+	#recom1:hover{
+		border: 1px solid #C0C0C0;
+		border-radius: 5px;
+		transition: border-width 0.6s linear;
+	}
+	#invite_well{
+		height: 400px;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		height: auto;
+	}
+	#connections_well{
+		height: 400px;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		cursor: default;
+		height: auto;
+
+	}
+	#recommendation_well{
+
+		height: 400px;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	
+	}
+
+	#nav{
+		background-color: #3b444b; color: white;
+	}
+	#container{
+		/*background-color: #3b444b; */
+		padding: 5% 5% 5% 5%; border-radius: 5px; overflow-x: hidden;
+	}
+	#recom_row{
+		height: 20px;
+	}
+	#C_search_widget{
+		margin-top: 7px;
+	}
+
+	.modal {
+	display:none;
+    position: fixed;
+    background-color: rgba(0,0,0,0.4);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 4% auto 15% auto;
+    border: 1px solid #888;
+    width: 480px; 
+	padding-bottom: 30px;
+	padding-top: 30px;
+
+}
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,.close:focus {
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}

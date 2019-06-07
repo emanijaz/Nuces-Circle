@@ -1,0 +1,21 @@
+	.main{
+		border: 1px solid #C0C0C0; 
+		border-radius: 5px; 
+		padding-left: 30px; 
+		padding-right: 30px; 
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+	}
+	#main_container{
+		border-top:50px solid #3b444b;
+	}
+	#img_container{
+		overflow: hidden;
+	}
+	#img{
+		border-radius: 5px;
+	}
+	#img_div{
+		display: inline-block;
+	}

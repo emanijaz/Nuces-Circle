@@ -1,0 +1,20 @@
+ .asterisk:after { content:" *";  color: red;}
+
+ #nav{
+ 	background-color: #3b444b; color: white;
+ }
+ #container{
+ 	margin-top: 5% ; color: white; margin-bottom: 5%;
+ }
+ #inner_div{
+ 	margin: 0 auto; width: auto;height: auto; background-color: #3b444b; padding: 5% 5% 5% 5% ;border-radius: 5px;
+ }
+ #postjob_btn{
+ 	margin-left: 15px;
+ }
+ #loc_label{
+ 	margin-left: 15px;
+ }
+ #job_desc_area{
+ 	margin-left: 10px;
+ }
